@@ -1,0 +1,67 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 2;
+    padding: 2;
+  }
+  
+  header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: left;
+  }
+  
+  h1 {
+    font-size: 24px;
+    margin: 0;
+  }
+  
+  main {
+    display: flex;
+    justify-content:stretch;
+    margin: 20px;
+  }
+  
+  #playlist, #player {
+
+    flex-basis: 45%;
+  }
+  
+  h2 {
+    font-size: 40px;
+    margin-bottom: 15px;
+  }
+  
+  ul {
+    font-size: 20px;
+    list-style-type: number;
+    padding: 0;
+  }
+  
+  li {
+
+    margin-bottom: 15px;
+  }
+  
+  #songInfo {
+    display: flex;
+    align-items: center ;
+    margin-bottom: 20px;
+    font-size: 20px;
+  }
+  
+  #songCover {
+    width: 300px;
+    height: 300px;
+    margin-right: 50px;
+  }
+  
+  #songDetails {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  audio {
+    width: 100%;
+    margin-top: 15px;
+  }
